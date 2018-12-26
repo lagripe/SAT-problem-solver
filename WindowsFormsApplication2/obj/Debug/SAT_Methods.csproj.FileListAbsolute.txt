@@ -1,3 +1,13 @@
 C:\Users\DzNiT0\Documents\Visual Studio 2015\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\SAT_Methods.exe.config
 C:\Users\DzNiT0\Documents\Visual Studio 2015\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\SAT_Methods.exe
 C:\Users\DzNiT0\Documents\Visual Studio 2015\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\SAT_Methods.pdb
+C:\Users\DzNiT0\Documents\GitHub\SAT-problem-solver\WindowsFormsApplication2\bin\Debug\SAT_Methods.exe.config
+C:\Users\DzNiT0\Documents\GitHub\SAT-problem-solver\WindowsFormsApplication2\bin\Debug\SAT_Methods.exe
+C:\Users\DzNiT0\Documents\GitHub\SAT-problem-solver\WindowsFormsApplication2\bin\Debug\SAT_Methods.pdb
+C:\Users\DzNiT0\Documents\GitHub\SAT-problem-solver\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\DzNiT0\Documents\GitHub\SAT-problem-solver\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form2.resources
+C:\Users\DzNiT0\Documents\GitHub\SAT-problem-solver\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form3.resources
+C:\Users\DzNiT0\Documents\GitHub\SAT-problem-solver\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\DzNiT0\Documents\GitHub\SAT-problem-solver\WindowsFormsApplication2\obj\Debug\SAT_Methods.csproj.GenerateResource.Cache
+C:\Users\DzNiT0\Documents\GitHub\SAT-problem-solver\WindowsFormsApplication2\obj\Debug\SAT_Methods.exe
+C:\Users\DzNiT0\Documents\GitHub\SAT-problem-solver\WindowsFormsApplication2\obj\Debug\SAT_Methods.pdb

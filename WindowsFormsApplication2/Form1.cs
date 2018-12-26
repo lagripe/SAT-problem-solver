@@ -404,39 +404,7 @@ namespace WindowsFormsApplication2
 
             }
 
-            if (radioButton9.Checked)
-            {
-                timer1.Start();
-                button4.Enabled = true;
-                thread = new Thread(() =>
-                {
-
-
-                    String output = API.AntsSystem(int.Parse(label7.Text), int.Parse(label8.Text));
-                    timer1.Stop();
-                    this.Invoke((MethodInvoker)delegate // To Write the Received data
-                    {
-                        if (output == null)
-                        {
-                            textBox1.Text = "NO Solution Found!";
-                            textBox1.ForeColor = Color.Red;
-                        }
-                        else
-                        {
-                            textBox1.Text = output;
-                            textBox1.ForeColor = Color.Green;
-                        }
-                        groupBox5.Enabled = true;
-                        button4.Enabled = false;
-                        timer1.Stop();
-                    });
-
-
-                });
-                thread.Start();
-                //Depth
-
-            }
+           
 
             if (radioButton11.Checked)
             {

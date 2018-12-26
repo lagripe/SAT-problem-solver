@@ -44,8 +44,6 @@ namespace WindowsFormsApplication2
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.radioButton11 = new System.Windows.Forms.RadioButton();
-            this.radioButton10 = new System.Windows.Forms.RadioButton();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
             this.radioButton8 = new System.Windows.Forms.RadioButton();
             this.radioButton7 = new System.Windows.Forms.RadioButton();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
@@ -166,8 +164,6 @@ namespace WindowsFormsApplication2
             // 
             this.groupBox3.BackColor = System.Drawing.Color.Transparent;
             this.groupBox3.Controls.Add(this.radioButton11);
-            this.groupBox3.Controls.Add(this.radioButton10);
-            this.groupBox3.Controls.Add(this.radioButton9);
             this.groupBox3.Controls.Add(this.radioButton8);
             this.groupBox3.Controls.Add(this.radioButton7);
             this.groupBox3.Controls.Add(this.radioButton6);
@@ -189,35 +185,13 @@ namespace WindowsFormsApplication2
             // 
             this.radioButton11.AutoSize = true;
             this.radioButton11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(166)))), ((int)(((byte)(217)))));
-            this.radioButton11.Location = new System.Drawing.Point(570, 24);
+            this.radioButton11.Location = new System.Drawing.Point(479, 24);
             this.radioButton11.Name = "radioButton11";
             this.radioButton11.Size = new System.Drawing.Size(48, 20);
             this.radioButton11.TabIndex = 10;
             this.radioButton11.Text = "BSO";
             this.radioButton11.UseVisualStyleBackColor = true;
             this.radioButton11.CheckedChanged += new System.EventHandler(this.radioButton11_CheckedChanged);
-            // 
-            // radioButton10
-            // 
-            this.radioButton10.AutoSize = true;
-            this.radioButton10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(166)))), ((int)(((byte)(217)))));
-            this.radioButton10.Location = new System.Drawing.Point(517, 24);
-            this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(52, 20);
-            this.radioButton10.TabIndex = 9;
-            this.radioButton10.Text = "ACO";
-            this.radioButton10.UseVisualStyleBackColor = true;
-            // 
-            // radioButton9
-            // 
-            this.radioButton9.AutoSize = true;
-            this.radioButton9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(166)))), ((int)(((byte)(217)))));
-            this.radioButton9.Location = new System.Drawing.Point(470, 24);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(39, 20);
-            this.radioButton9.TabIndex = 8;
-            this.radioButton9.Text = "AS";
-            this.radioButton9.UseVisualStyleBackColor = true;
             // 
             // radioButton8
             // 
@@ -738,9 +712,7 @@ namespace WindowsFormsApplication2
         private Panel panel1;
         private Panel panel2;
         private PictureBox pictureBox2;
-        private RadioButton radioButton9;
         private RadioButton radioButton11;
-        private RadioButton radioButton10;
     }
 }
 
