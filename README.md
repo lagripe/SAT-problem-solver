@@ -5,4 +5,4 @@
   - Depth tree generation
   - Heuristics
 # Snippet
-![Alt text](Snippet.png)
+![Alt text](Snippet.PNG)
