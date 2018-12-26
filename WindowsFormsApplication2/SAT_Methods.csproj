@@ -71,8 +71,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="API.cs" />
-    <Compile Include="Bee.cs" />
-    <Compile Include="BSO.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

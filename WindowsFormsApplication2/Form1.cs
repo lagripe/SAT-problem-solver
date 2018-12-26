@@ -406,50 +406,7 @@ namespace WindowsFormsApplication2
 
            
 
-            if (radioButton11.Checked)
-            {
-                
-
-                timer1.Start();
-                button4.Enabled = true;
-                textBox1.Text = "";
-                thread = new Thread(() =>
-                {
-                    //Max Ietartion, flip,maxlocal, chances
-                    BSO b = new BSO(Form3.max_iter, Form3.flip, Form3.max_local_iter, Form3.chances);
-                    Bee b1 = b.Bso_search(int.Parse(label8.Text), int.Parse(label7.Text));
-                    Console.WriteLine("nbr de clause satisfaites :" + b1.max_sat);
-                    String output = "";
-                    if (b1.max_sat == int.Parse(label8.Text))
-                    {
-                       
-                        foreach(int value in b1.localarea)
-                        {
-                            output +=value+" " ;
-                        }
-                        
-
-                    }
-                    else
-                    {
-                    output="solution not found";
-                    }
-                    timer1.Stop();
-                    this.Invoke((MethodInvoker)delegate // To Write the Received data
-                    {
-                        label4.Text =""+ b1.max_sat;
-                        textBox1.Text = output;
-                        groupBox5.Enabled = true;
-                        button4.Enabled = false;
-                        timer1.Stop();
-                    });
-
-
-                });
-                thread.Start();
-                //Depth
-
-            }
+           
 
 
 
