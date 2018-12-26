@@ -1,0 +1,3 @@
+C:\Users\DzNiT0\Documents\Visual Studio 2015\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\SAT_Methods.exe.config
+C:\Users\DzNiT0\Documents\Visual Studio 2015\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\SAT_Methods.exe
+C:\Users\DzNiT0\Documents\Visual Studio 2015\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\SAT_Methods.pdb
